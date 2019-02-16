@@ -25,6 +25,7 @@ Note: You can use multiple arraylist methods in a single test if needed, e.g. ad
 
 ---
 
+# Ex 3
 You have to write a class that verifies if the input is valid or not.
 A valid value must be a base64 encoded value of the following format: **UUID:UUID**
 Any other encoding or format must result in a failed test. The following values have to be tested
