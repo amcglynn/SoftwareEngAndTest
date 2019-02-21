@@ -1,5 +1,7 @@
-package week2;
+package ie.gmit.softwareeng.week3;
 
+import ie.gmit.softwareeng.week3.MyService;
+import ie.gmit.softwareeng.week3.SlowUnreliableDependency;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

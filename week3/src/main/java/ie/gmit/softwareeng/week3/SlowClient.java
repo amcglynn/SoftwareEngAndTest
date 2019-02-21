@@ -1,4 +1,4 @@
-package week2;
+package ie.gmit.softwareeng.week3;
 
 public class SlowClient {
 
