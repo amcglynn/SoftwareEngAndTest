@@ -1,4 +1,4 @@
-package ie.gmit.softwareeng.week2;
+package week2;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
