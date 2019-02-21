@@ -4,7 +4,8 @@ Write a test file containing three tests that print out a unique string. The fil
 ---
 
 # Ex 2 - Test Timeouts
-Write a unit test that detects that there is an endless loop in the EndlessTask code.
+Write a unit test that fails if there is a slow method or endless task. 
+The EndlessTask class can be used to test this.
 EndlessTask.java is under the ie.gmit.softwareeng.week2.ex2 src package.
 
 ---
@@ -15,8 +16,6 @@ not meet the requirements, listed below, an InvalidRequestException must be thro
 
 **Request requirements:**
 First name and last name must contain only characters and should have a minimum length of 1 and a maximum length of 100. 
-Date of birth must be in the format of DD/MM/YYYY
-Phone number must be numeric characters and must have a minimum length of 9 characters and a maximum of 15
 
 Write various unit tests which test that exceptions are thrown when invalid Requests are validated.
 
