@@ -1,6 +1,6 @@
 # Exercise 1
 Your job is to write reliable unit tests for WeekendChecker.java.
-Your test must run in under 100 milliseconds and must be able to pass regardless on what day it ran on.
+Your test must run in under 100 milliseconds and must be able to pass regardless on what day it ran.
 You should unit test all branches of the isWeekend method.
 
 # Exercise 2
