@@ -1,10 +1,10 @@
-package ie.gmit.softwareeng.week3;
+package ie.gmit.softwareeng.week3.ex2;
 
-public class MyService {
+public class Service {
 
     private SlowUnreliableDependency dependency;
 
-    public MyService(SlowUnreliableDependency dependency) {
+    public Service(SlowUnreliableDependency dependency) {
         this.dependency = dependency;
     }
 

@@ -1,4 +1,4 @@
-package ie.gmit.softwareeng.week3;
+package ie.gmit.softwareeng.week3.ex2;
 
 public class SlowUnreliableDependency {
     public String getStatus() {
