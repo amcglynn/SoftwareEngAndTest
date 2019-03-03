@@ -1,0 +1,29 @@
+<project name="Week 4 Project" default="run">
+
+    <property name="report.dir"  value="build/reports"/>
+    <property name="test.classes.dir"  value="build/classes"/>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes" includeantruntime="false"/>
+        <javac srcdir="test" destdir="build/classes" includeantruntime="false"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/week4.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="ie.gmit.softwareeng.week4.App"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run" depends="jar">
+        <java jar="build/jar/week4.jar" fork="true"/>
+    </target>
+
+</project>
