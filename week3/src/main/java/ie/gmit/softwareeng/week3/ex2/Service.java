@@ -9,11 +9,15 @@ public class Service {
     }
 
     public String makeRequest() {
-        String response = dependency.getStatus();
+        try {
+            String response = dependency.getStatus();
 
-        if (response.toString() == "Success") {
-            return "Received success";
-        } else {
+            if ("Success".equals(response)) {
+                return "Received success";
+            } else {
+                return "Could not complete successfully";
+            }
+        } catch (CommunicationException e) {
             return "Could not complete successfully";
         }
     }
